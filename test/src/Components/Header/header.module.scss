@@ -1,0 +1,20 @@
+.Header{
+
+margin: 20px 50px;
+border-bottom: #fff solid 1px;
+    .content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .links{
+            display: flex;
+            justify-content: space-between;
+            font-size: 28px;
+            span{
+                margin-right: 20px;
+                height: 100%;
+                a{color: #fff;}
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.list {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin-left: 25px;
+
+    .gamePlace {
+        margin-right: 30px;
+
+        .game {
+            color: #A17E22;
+            margin-bottom: 5px;
+        }
+
+        .play {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+
+            .players {
+                color: #F44C4C;
+            }
+
+            p {
+                margin: 2px 0px;
+            }
+
+            width: 100%;
+        }
+    }
+}

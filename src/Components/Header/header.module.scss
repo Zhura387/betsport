@@ -10,6 +10,9 @@ border-bottom: #fff solid 1px;
             display: flex;
             justify-content: space-between;
             font-size: 28px;
+            .linkLife{
+                color: #F44C4C;
+            }
             span{
                 margin-right: 20px;
                 height: 100%;
@@ -18,3 +21,9 @@ border-bottom: #fff solid 1px;
         }
     }
 }
+@media (max-width:768px){
+    .Header{
+margin: 0px 20px;
+    }
+    
+    }

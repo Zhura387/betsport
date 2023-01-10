@@ -10,7 +10,6 @@ export const lifeSlice = createSlice({
     reducers: {
         addLife: (state, action) => {
             state.value=action.payload
-console.log(action.payload)
 }}})
 
 export const { addLife } = lifeSlice.actions;

@@ -10,11 +10,10 @@ export const tomorrowSlice = createSlice({
     reducers: {
         addSport: (state, action) => {
             state.value = action.payload
-
-            console.log(action.payload)
+        }
     }
-}})
+})
 
-export const { addSport} = tomorrowSlice.actions;
+export const { addSport } = tomorrowSlice.actions;
 
 export default tomorrowSlice.reducer

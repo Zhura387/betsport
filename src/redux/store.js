@@ -11,7 +11,7 @@ export const store = configureStore({
         life: lifeSlice,
         tomorrow: tomorrowSlice,
         choise: choiseSlice,
-        rate:rateSlice,
-        wins:winsSlice
+        rate: rateSlice,
+        wins: winsSlice
     }
 })

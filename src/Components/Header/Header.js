@@ -13,10 +13,10 @@ const Header = () => {
                 </Link>
                 </p>
                 <div className={s.links}>
-                    <span> <Link to="life">life</Link></span>
+                    <span > <Link className={s.linkLife} to="life">life</Link></span>
                     <span> <Link to="/tomorrow">tomorrow</Link></span>
-                     <Link to="/cart"><svg width="44" height="38" viewBox="0 0 44 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5714 15.8333V9.5H3.14286V34.8333H12.5714V28.5H3.14286V25.3333H12.5714V19H3.14286V15.8333H12.5714ZM15.7143 15.8333H28.2857V9.5H15.7143V15.8333ZM31.4286 15.8333H40.8571V9.5H31.4286V15.8333ZM40.8571 19H31.4286V25.3333H40.8571V19ZM28.2857 19H15.7143V25.3333H28.2857V19ZM40.8571 28.5H31.4286V34.8333H40.8571V28.5ZM28.2857 28.5H15.7143V34.8333H28.2857V28.5ZM0 38V0H44V38H0Z" fill="#9AA7B0" fill-opacity="0.8" />
+                    <Link to="/cart"><svg width="44" height="38" viewBox="0 0 44 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fillRule="evenodd" clipRule="evenodd" d="M12.5714 15.8333V9.5H3.14286V34.8333H12.5714V28.5H3.14286V25.3333H12.5714V19H3.14286V15.8333H12.5714ZM15.7143 15.8333H28.2857V9.5H15.7143V15.8333ZM31.4286 15.8333H40.8571V9.5H31.4286V15.8333ZM40.8571 19H31.4286V25.3333H40.8571V19ZM28.2857 19H15.7143V25.3333H28.2857V19ZM40.8571 28.5H31.4286V34.8333H40.8571V28.5ZM28.2857 28.5H15.7143V34.8333H28.2857V28.5ZM0 38V0H44V38H0Z" fill="#9AA7B0" fillOpacity="0.8" />
                     </svg>
                     </Link>
                 </div>

@@ -1,0 +1,19 @@
+.content {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+
+    .cart {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .player {
+            color: #F44C4C;
+        }
+
+        p {
+            margin: 5px;
+        }
+    }
+}

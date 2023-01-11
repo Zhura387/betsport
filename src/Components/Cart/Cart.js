@@ -31,7 +31,7 @@ const Cart = () => {
                         <p>Выбранная ставка {item.rate}</p>
                         <p> Ваш коффициент {item.kof}</p>
                         <div>
-                            <input type='number' placeholder='введите сумму' onChange={(e) => setSum(e.target.value)} value={sum}></input>
+                            <input min="1"  type='number' placeholder='введите сумму' onChange={(e) => setSum(e.target.value)} value={sum}></input>
                             <button onClick={() => hendleClick(sum)}>подтвердить</button>
                         </div>
                     </div>))}
